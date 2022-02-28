@@ -45,7 +45,7 @@ struct ContentView: View {
             Spacer()
             
             Text("Exact Mode?")
-            Toggle("", isOn: $exact_mode_toggle).padding(.trailing, 17r0)
+            Toggle("", isOn: $exact_mode_toggle).padding(.trailing, 170)
         }
         .padding(.top, 20)
     }

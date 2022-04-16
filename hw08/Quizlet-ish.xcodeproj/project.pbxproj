@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26761A53280A7B8700528948 /* Quizlet_ishApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26761A52280A7B8700528948 /* Quizlet_ishApp.swift */; };
+		26761A57280A7B8800528948 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26761A56280A7B8800528948 /* Assets.xcassets */; };
+		26761A5A280A7B8800528948 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26761A59280A7B8800528948 /* Preview Assets.xcassets */; };
+		26761A65280A7B8800528948 /* CardListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26761A64280A7B8800528948 /* CardListViewModel.swift */; };
+		26761A6F280A7B8800528948 /* quizlet_ishApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26761A6E280A7B8800528948 /* quizlet_ishApp.swift */; };
+		26761A7F280A836700528948 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26761A54280A7B8700528948 /* ContentView.swift */; };
+		26761A84280A83E300528948 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26761A83280A83E300528948 /* Preview Assets.xcassets */; };
+		26761A86280A840800528948 /* NewCardForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26761A85280A840800528948 /* NewCardForm.swift */; };
+		26761A88280A841700528948 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26761A87280A841700528948 /* CardView.swift */; };
+		26761A8D280A896D00528948 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26761A8C280A896D00528948 /* CardViewModel.swift */; };
+		26761A8F280A898A00528948 /* CardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26761A8E280A898A00528948 /* CardListView.swift */; };
+		26761A91280A8A1500528948 /* CardRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26761A90280A8A1500528948 /* CardRepository.swift */; };
+		26761A93280A8AB200528948 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26761A92280A8AB200528948 /* Card.swift */; };
+		26761A95280A8B6E00528948 /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26761A94280A8B6E00528948 /* AuthenticationService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26761A61280A7B8800528948 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26761A47280A7B8600528948 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26761A4E280A7B8600528948;
+			remoteInfo = "Quizlet-ish";
+		};
+		26761A6B280A7B8800528948 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26761A47280A7B8600528948 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26761A4E280A7B8600528948;
+			remoteInfo = "Quizlet-ish";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26761A4F280A7B8600528948 /* Quizlet-ish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quizlet-ish.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26761A52280A7B8700528948 /* Quizlet_ishApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quizlet_ishApp.swift; sourceTree = "<group>"; };
+		26761A54280A7B8700528948 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		26761A56280A7B8800528948 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26761A59280A7B8800528948 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		26761A5B280A7B8800528948 /* Quizlet_ish.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Quizlet_ish.entitlements; sourceTree = "<group>"; };
+		26761A60280A7B8800528948 /* Quizlet-ishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quizlet-ishTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26761A64280A7B8800528948 /* CardListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListViewModel.swift; sourceTree = "<group>"; };
+		26761A6A280A7B8800528948 /* Quizlet-ishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quizlet-ishUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26761A6E280A7B8800528948 /* quizlet_ishApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizlet_ishApp.swift; sourceTree = "<group>"; };
+		26761A83280A83E300528948 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		26761A85280A840800528948 /* NewCardForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCardForm.swift; sourceTree = "<group>"; };
+		26761A87280A841700528948 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		26761A8C280A896D00528948 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		26761A8E280A898A00528948 /* CardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListView.swift; sourceTree = "<group>"; };
+		26761A90280A8A1500528948 /* CardRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardRepository.swift; sourceTree = "<group>"; };
+		26761A92280A8AB200528948 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Card.swift; path = Repositories/Card.swift; sourceTree = SOURCE_ROOT; };
+		26761A94280A8B6E00528948 /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26761A4C280A7B8600528948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26761A5D280A7B8800528948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26761A67280A7B8800528948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26761A46280A7B8600528948 = {
+			isa = PBXGroup;
+			children = (
+				26761A51280A7B8600528948 /* Quizlet-ish */,
+				26761A63280A7B8800528948 /* ViewModels */,
+				26761A89280A893D00528948 /* Models */,
+				26761A6D280A7B8800528948 /* Repositories */,
+				26761A50280A7B8600528948 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26761A50280A7B8600528948 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26761A4F280A7B8600528948 /* Quizlet-ish.app */,
+				26761A60280A7B8800528948 /* Quizlet-ishTests.xctest */,
+				26761A6A280A7B8800528948 /* Quizlet-ishUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26761A51280A7B8600528948 /* Quizlet-ish */ = {
+			isa = PBXGroup;
+			children = (
+				26761A52280A7B8700528948 /* Quizlet_ishApp.swift */,
+				26761A94280A8B6E00528948 /* AuthenticationService.swift */,
+				26761A5B280A7B8800528948 /* Quizlet_ish.entitlements */,
+				26761A58280A7B8800528948 /* Views */,
+			);
+			path = "Quizlet-ish";
+			sourceTree = "<group>";
+		};
+		26761A58280A7B8800528948 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				26761A82280A83E300528948 /* Card */,
+				26761A59280A7B8800528948 /* Preview Assets.xcassets */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		26761A63280A7B8800528948 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				26761A64280A7B8800528948 /* CardListViewModel.swift */,
+				26761A8C280A896D00528948 /* CardViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		26761A6D280A7B8800528948 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				26761A6E280A7B8800528948 /* quizlet_ishApp.swift */,
+				26761A90280A8A1500528948 /* CardRepository.swift */,
+				26761A54280A7B8700528948 /* ContentView.swift */,
+				26761A56280A7B8800528948 /* Assets.xcassets */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		26761A82280A83E300528948 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				26761A83280A83E300528948 /* Preview Assets.xcassets */,
+				26761A85280A840800528948 /* NewCardForm.swift */,
+				26761A87280A841700528948 /* CardView.swift */,
+				26761A8E280A898A00528948 /* CardListView.swift */,
+			);
+			name = Card;
+			sourceTree = "<group>";
+		};
+		26761A89280A893D00528948 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				26761A92280A8AB200528948 /* Card.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26761A4E280A7B8600528948 /* Quizlet-ish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26761A74280A7B8800528948 /* Build configuration list for PBXNativeTarget "Quizlet-ish" */;
+			buildPhases = (
+				26761A4B280A7B8600528948 /* Sources */,
+				26761A4C280A7B8600528948 /* Frameworks */,
+				26761A4D280A7B8600528948 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quizlet-ish";
+			productName = "Quizlet-ish";
+			productReference = 26761A4F280A7B8600528948 /* Quizlet-ish.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26761A5F280A7B8800528948 /* Quizlet-ishTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26761A77280A7B8800528948 /* Build configuration list for PBXNativeTarget "Quizlet-ishTests" */;
+			buildPhases = (
+				26761A5C280A7B8800528948 /* Sources */,
+				26761A5D280A7B8800528948 /* Frameworks */,
+				26761A5E280A7B8800528948 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26761A62280A7B8800528948 /* PBXTargetDependency */,
+			);
+			name = "Quizlet-ishTests";
+			productName = "Quizlet-ishTests";
+			productReference = 26761A60280A7B8800528948 /* Quizlet-ishTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26761A69280A7B8800528948 /* Quizlet-ishUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26761A7A280A7B8800528948 /* Build configuration list for PBXNativeTarget "Quizlet-ishUITests" */;
+			buildPhases = (
+				26761A66280A7B8800528948 /* Sources */,
+				26761A67280A7B8800528948 /* Frameworks */,
+				26761A68280A7B8800528948 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26761A6C280A7B8800528948 /* PBXTargetDependency */,
+			);
+			name = "Quizlet-ishUITests";
+			productName = "Quizlet-ishUITests";
+			productReference = 26761A6A280A7B8800528948 /* Quizlet-ishUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26761A47280A7B8600528948 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					26761A4E280A7B8600528948 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					26761A5F280A7B8800528948 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 26761A4E280A7B8600528948;
+					};
+					26761A69280A7B8800528948 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 26761A4E280A7B8600528948;
+					};
+				};
+			};
+			buildConfigurationList = 26761A4A280A7B8600528948 /* Build configuration list for PBXProject "Quizlet-ish" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26761A46280A7B8600528948;
+			productRefGroup = 26761A50280A7B8600528948 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26761A4E280A7B8600528948 /* Quizlet-ish */,
+				26761A5F280A7B8800528948 /* Quizlet-ishTests */,
+				26761A69280A7B8800528948 /* Quizlet-ishUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26761A4D280A7B8600528948 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26761A5A280A7B8800528948 /* Preview Assets.xcassets in Resources */,
+				26761A84280A83E300528948 /* Preview Assets.xcassets in Resources */,
+				26761A57280A7B8800528948 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26761A5E280A7B8800528948 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26761A68280A7B8800528948 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26761A4B280A7B8600528948 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26761A86280A840800528948 /* NewCardForm.swift in Sources */,
+				26761A53280A7B8700528948 /* Quizlet_ishApp.swift in Sources */,
+				26761A88280A841700528948 /* CardView.swift in Sources */,
+				26761A8F280A898A00528948 /* CardListView.swift in Sources */,
+				26761A91280A8A1500528948 /* CardRepository.swift in Sources */,
+				26761A8D280A896D00528948 /* CardViewModel.swift in Sources */,
+				26761A93280A8AB200528948 /* Card.swift in Sources */,
+				26761A95280A8B6E00528948 /* AuthenticationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26761A5C280A7B8800528948 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26761A65280A7B8800528948 /* CardListViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26761A66280A7B8800528948 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26761A6F280A7B8800528948 /* quizlet_ishApp.swift in Sources */,
+				26761A7F280A836700528948 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26761A62280A7B8800528948 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26761A4E280A7B8600528948 /* Quizlet-ish */;
+			targetProxy = 26761A61280A7B8800528948 /* PBXContainerItemProxy */;
+		};
+		26761A6C280A7B8800528948 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26761A4E280A7B8600528948 /* Quizlet-ish */;
+			targetProxy = 26761A6B280A7B8800528948 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26761A72280A7B8800528948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26761A73280A7B8800528948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		26761A75280A7B8800528948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Quizlet-ish/Quizlet_ish.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Quizlet-ish/Preview Content\"";
+				DEVELOPMENT_TEAM = RLRDSY7C6K;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zizhuochen.Quizlet-ish";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		26761A76280A7B8800528948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Quizlet-ish/Quizlet_ish.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Quizlet-ish/Preview Content\"";
+				DEVELOPMENT_TEAM = RLRDSY7C6K;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zizhuochen.Quizlet-ish";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		26761A78280A7B8800528948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RLRDSY7C6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zizhuochen.Quizlet-ishTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quizlet-ish.app/Contents/MacOS/Quizlet-ish";
+			};
+			name = Debug;
+		};
+		26761A79280A7B8800528948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RLRDSY7C6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zizhuochen.Quizlet-ishTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quizlet-ish.app/Contents/MacOS/Quizlet-ish";
+			};
+			name = Release;
+		};
+		26761A7B280A7B8800528948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RLRDSY7C6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zizhuochen.Quizlet-ishUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Quizlet-ish";
+			};
+			name = Debug;
+		};
+		26761A7C280A7B8800528948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RLRDSY7C6K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zizhuochen.Quizlet-ishUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Quizlet-ish";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26761A4A280A7B8600528948 /* Build configuration list for PBXProject "Quizlet-ish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26761A72280A7B8800528948 /* Debug */,
+				26761A73280A7B8800528948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26761A74280A7B8800528948 /* Build configuration list for PBXNativeTarget "Quizlet-ish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26761A75280A7B8800528948 /* Debug */,
+				26761A76280A7B8800528948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26761A77280A7B8800528948 /* Build configuration list for PBXNativeTarget "Quizlet-ishTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26761A78280A7B8800528948 /* Debug */,
+				26761A79280A7B8800528948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26761A7A280A7B8800528948 /* Build configuration list for PBXNativeTarget "Quizlet-ishUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26761A7B280A7B8800528948 /* Debug */,
+				26761A7C280A7B8800528948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26761A47280A7B8600528948 /* Project object */;
+}
